@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  api:
+    image: go:teste
+    ports:
+      - "8080:8080"
+  consumer:
+    image: consumer:teste
